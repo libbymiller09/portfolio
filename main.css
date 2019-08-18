@@ -84,6 +84,16 @@ section {
   border-radius: 15px;
 }
 
+#museumMain, #museumFeature, #museumGallery,
+#spaMain, #spaFeature {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
 .sectionTag {
   text-decoration: none;
   color: #328284;
@@ -92,6 +102,10 @@ section {
 
 .sectionTag:hover {
   color: #4f3558;
+}
+
+#contact {
+  padding-bottom: 20px;
 }
 
 #contact a {
@@ -120,19 +134,23 @@ footer a:hover {
   #homeLogo {
     display: block;
   }
+
   .navLinks li a {
     display: none;
   }
+
   .navLinks li a.icon {
     float: right;
     display: block;
   }
+
   .navLinks.responsive {position: relative;}
   .navLinks.responsive li a.icon {
     position: absolute;
     right: 0;
     top: 0;
   } 
+
   .navLinks.responsive li a {
     float: none;
     display: block;
@@ -140,13 +158,18 @@ footer a:hover {
     padding-left: 4px;
     padding-right: 4px;
   }
+
   .navLinks.responsive li {
     display: block
   }
-  #petImage, #readImage, #studImage {
+
+  #petImage, #readImage, #studImage,
+  #museumMain, #museumFeature, #museumGallery, 
+  #spaMain, #spaFeature  {
     width: 90%;
     height: 90%;
   }
+
   footer {
     font-size: 13px;
   }
@@ -159,5 +182,4 @@ footer a:hover {
     margin: 0 auto;  
     text-align: center;
   }
-
 }
