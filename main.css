@@ -73,7 +73,7 @@ section {
   padding: 6% 0;
 }
 
-#petImage, #readImage, #studImage {
+#petImage, #readImage, #studImage, #anxietyImage {
   display: block;
   width: 50%;
   height: 50%;
@@ -149,7 +149,7 @@ footer a:hover {
     position: absolute;
     right: 0;
     top: 0;
-  } 
+  }
 
   .navLinks.responsive li a {
     float: none;
@@ -164,7 +164,7 @@ footer a:hover {
   }
 
   #petImage, #readImage, #studImage,
-  #museumMain, #museumFeature, #museumGallery, 
+  #museumMain, #museumFeature, #museumGallery,
   #spaMain, #spaFeature  {
     width: 90%;
     height: 90%;
@@ -177,9 +177,9 @@ footer a:hover {
 
 @media only screen and (min-width: 768px) {
   main {
-    padding-top: 200px; 
-    width: 970px; 
-    margin: 0 auto;  
+    padding-top: 200px;
+    width: 970px;
+    margin: 0 auto;
     text-align: center;
   }
 }
