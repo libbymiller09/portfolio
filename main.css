@@ -84,7 +84,7 @@ section {
   border-radius: 15px;
 }
 
-#prl-1, #prl-2 {
+#prl-1, #prl-2, #kc-1, #kc-2 {
   display: block;
   width: 100%;
   margin-left: auto;
@@ -95,7 +95,7 @@ section {
   transition: transform .3s;
 }
 
-#prl-1:hover, #prl-2:hover {
+#prl-1:hover, #prl-2:hover, #kc-1:hover, #kc-2:hover {
   transform: translateY(-1rem) scale(1.05);
 }
 
